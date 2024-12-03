@@ -42,11 +42,7 @@ header h1:hover, header nav a:hover, footer div:nth-child(1):hover, footer div:n
     text-shadow: 2px 2px 3px #000000;
 }
 
-/* !main! */
-main div:first-child{
-    position: sticky;
-    z-index: 100;
-}
+/* !main! */    
 img{
     width: 100%;
     object-fit: cover;
