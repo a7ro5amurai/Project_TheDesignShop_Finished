@@ -40,7 +40,7 @@ nav a:nth-child(3){
 nav h1{
     font-size: 2rem;
 }
-    
+
 /* !main! */    
 img{
     width: 100%;
@@ -60,7 +60,7 @@ h4{
     display: grid;
     column-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .flex{
     display: flex;
