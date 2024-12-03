@@ -21,6 +21,8 @@ body{
     padding: 0 40px;
     margin: 0 auto;
 }
+
+/* !header! */
 header{
     display: flex;
     padding: 3vh 0;
@@ -38,18 +40,12 @@ nav a:nth-child(3){
 nav h1{
     font-size: 2rem;
 }
-header h1:hover, header nav a:hover, footer div:nth-child(1):hover, footer div:nth-child(2):hover, footer div:nth-child(3):hover, footer div:nth-child(4):hover, strong:hover{
-    text-shadow: 2px 2px 3px #000000;
-}
 
 /* !main! */    
 img{
     width: 100%;
     object-fit: cover;
     margin-bottom: 20px;
-}
-img:hover{
-    opacity: 0.5;
 }
 .flex p, .flex h4{
     font-size: 1.5rem;
@@ -66,7 +62,6 @@ h4{
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 40px;
 }
-
 .flex{
     display: flex;
     justify-content: space-between;
@@ -83,7 +78,6 @@ footer{
     "nine ten ten ten"
     ;
 }
-
 footer div:nth-child(1), footer div:nth-child(2), footer div:nth-child(3), footer div:nth-child(4){
     font-family: "Karla-Bold";
     font-size: 1.3rem;
@@ -96,4 +90,12 @@ footer div:nth-child(6), footer div:nth-child(8){
 } 
 footer div:nth-child(9){
     color: #848484;
-}   
+}  
+
+/* !hover! */
+header h1:hover, header nav a:hover, footer div:nth-child(1):hover, footer div:nth-child(2):hover, footer div:nth-child(3):hover, footer div:nth-child(4):hover, strong:hover{
+    text-shadow: 2px 2px 3px #000000;
+}
+img:hover{
+    opacity: 0.5;
+}       
